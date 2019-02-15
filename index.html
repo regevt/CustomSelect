@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="./custumSelect.css" />
+	</head>
+	<body>
+		<div style="width:180px">
+			<div class="customSelect">
+				<select onchange="selectionChanged(event)">
+					<option value="0">option 1</option>
+					<option value="1">option 2</option>
+					<option value="2">option 3</option>
+					<option value="3">option 4</option>
+					<option value="4">option 5</option>
+				</select>
+			</div>
+		</div>
+		<script src="./custumSelect.js"></script>
+		<script>
+			function selectionChanged(event) {
+				// console.log(event.target);
+			}
+		</script>
+	</body>
+</html>
